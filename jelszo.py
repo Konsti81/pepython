@@ -14,6 +14,9 @@ print("3. Meglévő felhasználónév-jelszó pár törlése")
 menupont_szama=int(input("Kérem a kiválasztott menüpont számát:"))
 if menupont_szama==1:
     print(f"A felhasználóneved:{felhasznalonev} És az ehhez tartozó jelszavad:{jelszo}")
+   
+    with open("jelszo.txt", 'a') as file:
+    file.write(f"Felhasználónév:{felhasznalonev}, Jelszó:{jelszo}\n")
     #szavak imprtálása txt fáljból.
     #szavak=[2 random szó a szótárból]szavak.append()random.choices(szotar,2)
     
