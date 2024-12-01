@@ -4,8 +4,8 @@
 
 ## A program funkciói:
 
--a program különböző felhasználóknak létrehoz egy szótár alapján akár több felhasználónév-jelszó párt konzolos interfészen keresztül
--a felhasználó képes a számára létrehozott párokat megtekinteni, módosítani és törölni
+-a program különböző felhasználóknak létrehoz egy szótár alapján akár több felhasználónév-jelszó párt konzolos interfészen keresztül  
+-a felhasználó képes a számára létrehozott párokat megtekinteni, módosítani és törölni  
 
 ## A konzolos főmenü kinézete:
 `1. Új felhasználónév-jelszó pár létrehozása`  

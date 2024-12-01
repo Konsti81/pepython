@@ -6,7 +6,7 @@ def jelszogeneralas():
     szavak=random.choices(szotar, k=2)
     szam=random.randint(100,999)
     speckaraterter=random.choice(string.punctuation)
-    return f"{szavak}{szam}{speckaraterter}"
+    return f"{szavak[0]}{szavak[1]}{szam}{speckaraterter}"
 jelszo=jelszogeneralas()
 print("1. Új felhasználónév-jelszó pár létrehozás")
 print("2. Meglévő felhasznűló-jelszó pár módositása")
