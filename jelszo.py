@@ -3,9 +3,9 @@ import string
 szotar=["alma", "kereszt", "fal","kő", "kapu", "elem", "lista", "ragasztó"]
 felhasznalonev=input("Adj meg egy felhasználó nevet!: ")
 def jelszogeneralas():
-    szavak=random.choices(szotar,2)
-    szam=random.randit(100,999)
-    speckaraterter=random.choice(string.puntuation)
+    szavak=random.choices(szotar, k=2)
+    szam=random.randint(100,999)
+    speckaraterter=random.choice(string.punctuation)
     return f"{szavak}{szam}{speckaraterter}"
 jelszo=jelszogeneralas()
 print("1. Új felhasználónév-jelszó pár létrehozás")
